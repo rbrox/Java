@@ -18,7 +18,8 @@ The package declaration must be the first line of code in your Java source file,
 
 3. **Example** 🌟
 
-`package com.example.myapp;
+```
+package com.example.myapp;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -26,7 +27,7 @@ import java.util.List;
 public class MyClass {
     // Class implementation goes here
 }
-`
+```
 
 In this example, the class `MyClass` belongs to the package `com.example.myapp`. We also import classes from the `java.util` package to use `ArrayList` and `List`.
 
@@ -34,9 +35,9 @@ In this example, the class `MyClass` belongs to the package `com.example.myapp`.
 
 Java also supports subpackages, allowing you to further organize your classes. Subpackages are declared using a dot notation after the parent package declaration. For example:
 
-`
+```
 package com.example.myapp.util;
-`
+```
 
 Here, `util` is a subpackage of the `com.example.myapp` package.
 
